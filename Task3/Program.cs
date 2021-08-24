@@ -28,11 +28,8 @@ namespace Task3
             pos = GetSelectedPosition(counter, Convert.ToInt32(Console.ReadLine()));
 
             Console.Write("How many hours you worked this month: ");
-            int h = Convert.ToInt32(Console.ReadLine());
 
-
-
-            if (acc.AskForBonus(pos,h)) Console.WriteLine("\nYou will get your bonus");
+            if (acc.AskForBonus(pos, Convert.ToInt32(Console.ReadLine()))) Console.WriteLine("\nYou will get your bonus");
             else Console.WriteLine("\nGet back to work lazy bastard");
 
             Console.ReadKey();

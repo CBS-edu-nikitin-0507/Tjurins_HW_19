@@ -15,18 +15,16 @@ namespace Task2
             {
                 case 1:
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(stroka);
                     break;
                 case 2:
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine(stroka);
                     break;
                 case 3:
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine(stroka);
                     break;
             }
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine(stroka);
+            Console.ResetColor();
         }
 
     }
