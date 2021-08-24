@@ -19,7 +19,7 @@ namespace Task3
         {
             int counter = 1;
             Accountant acc = new Accountant();
-            Positions pos = Positions.BusinessAnalyst;
+            Positions pos;
 
             Console.WriteLine("Enter your position number:");
             PrintAllPositions(counter);
